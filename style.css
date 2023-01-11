@@ -1,37 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+
+}
 body{
+    display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0 40px;
+}
+main{
     background-color: rgb(241, 232, 232);
-    
-    
+    max-width: 100%;
+    min-width: 360px;
 }
 h1,h2,h3{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .box1{
-    margin-top: 0px;
+    margin: 15px;
     text-align: center;
+    justify-content: center;
+    max-width: 100%;
+    align-content: center;
     margin-bottom: 10px;
+}
+.box2 img{
+    max-width: 100%;
+    min-width: 360px;
 }
 
 .box2{
-    text-align: center;
     background-color: white;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    
 }
 .box3{
     text-align: center;
+    margin: 0 auto;
 
 }
 ul li{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 ul{
     text-align: left;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
